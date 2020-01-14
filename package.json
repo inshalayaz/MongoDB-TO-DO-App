@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/inshalayaz/MongoDB-TO-DO-App/issues"
   },
-  "homepage": "https://github.com/inshalayaz/MongoDB-TO-DO-App#readme"
+  "homepage": "https://github.com/inshalayaz/MongoDB-TO-DO-App#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
