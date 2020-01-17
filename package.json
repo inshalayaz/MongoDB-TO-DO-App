@@ -4,7 +4,7 @@
   "description": "My first web application using node express and mongoDB",
   "main": "server.js",
   "scripts": {
-    "watch":"nodemon server" ,
+    "watch": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/inshalayaz/MongoDB-TO-DO-App#readme",
   "dependencies": {
+    "mongodb": "^3.5.0",
     "nodemon": "^2.0.2"
   }
 }
