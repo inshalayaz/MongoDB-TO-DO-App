@@ -67,7 +67,7 @@ app.post('/create-item', function(req, res) {
 })
 
 app.post('/update-text',(req, res) => {
-  db.collection('item').findOneAndUpdate({_id:new mongodb.ObjectId(req.body.id)},{$set: {text: req.body.text}},()=>{
+  db.collection('items').findOneAndUpdate({_id:new mongodb.ObjectId(req.body.id)},{$set: {text: req.body.text}},()=>{
     res.send('success')
   })
 });
